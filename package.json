@@ -1,0 +1,18 @@
+{
+  "name": "kodnest-careers-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "turbo run format",
+    "dev:local": "docker-compose -f docker-compose.local.yml up -d",
+    "down:local": "docker-compose -f docker-compose.local.yml down"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  },
+  "packageManager": "pnpm@9"
+}

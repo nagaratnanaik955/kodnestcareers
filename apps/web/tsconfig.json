@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "baseUrl": "./src"
+  },
+  "include": ["next-env.d.ts", "src/**/*", "tests/**/*"],
+  "exclude": ["node_modules"]
+}
