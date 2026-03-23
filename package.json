@@ -7,9 +7,7 @@
     "build": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "format": "turbo run format",
-    "dev:local": "docker-compose -f docker-compose.local.yml up -d",
-    "down:local": "docker-compose -f docker-compose.local.yml down"
+    "format": "turbo run format"
   },
   "devDependencies": {
     "turbo": "^2.0.0"
